@@ -685,6 +685,8 @@ class ServiceModal {
     }
 }
 
+
+
 // Mobile Navigation Toggle
 const mobileMenu = document.getElementById('mobile-menu');
 const navMenu = document.querySelector('.nav-menu');
@@ -954,10 +956,14 @@ class TestimonialCarousel {
     }
 }
 
+
+
 // Initialize service modal system
 document.addEventListener('DOMContentLoaded', () => {
     new ServiceModal();
     
     // Initialize testimonial carousel if it exists
     new TestimonialCarousel('.testimonials-carousel');
+    
+
 });
