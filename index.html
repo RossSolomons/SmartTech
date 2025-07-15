@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartTech - Student-Led Tech Solutions</title>
+    <title>SmartTech - Tech Made Simple</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+.hero {
+    background: url('Smart-technology-application-vector.jpg') center center/cover no-repeat;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5); /* dark overlay for readability */
+    z-index: 1;
+}
+.hero-container, .hero-content {
+    position: relative;
+    z-index: 2;
+}
+</style>
 
 </head>
 <body>
@@ -42,18 +62,14 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Student-Led Tech Solutions</h1>
+                <h1 class="hero-title">Student- Tech Made Simple</h1>
                 <p class="hero-subtitle">Professional services designed by students, for students and professionals. From CV creation to tech support, we've got you covered.</p>
                 <div class="hero-buttons">
                     <a href="#services" class="btn btn-primary">Our Services</a>
                     <a href="#contact" class="btn btn-secondary">Get Started</a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="hero-graphic">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-            </div>
+            <!-- Remove the hero-image div with the laptop icon -->
         </div>
     </section>
 
@@ -349,7 +365,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>SmartTech</h3>
-                    <p>Student-led tech solutions for the modern professional.</p>
+                    <p>Tech Made Simple.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
