@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTech - Student-Led Tech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>SmartTech</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Student-Led Tech Solutions</h1>
+                <p class="hero-subtitle">Professional services designed by students, for students and professionals. From CV creation to tech support, we've got you covered.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive tech solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <!-- Professional Documents -->
+                <div class="service-card" data-service="cv-creation">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>CV Creation</h3>
+                    <p>Professional, ATS-friendly CVs that stand out to employers and showcase your skills effectively.</p>
+                    <ul class="service-features">
+                        <li>ATS-optimized format</li>
+                        <li>Industry-specific templates</li>
+                        <li>Unlimited revisions</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="cover-letters">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Cover Letters</h3>
+                    <p>Compelling cover letters that complement your CV and tell your unique story to potential employers.</p>
+                    <ul class="service-features">
+                        <li>Personalized content</li>
+                        <li>Job-specific targeting</li>
+                        <li>Professional tone</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="linkedin-setup">
+                    <div class="service-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn Setup</h3>
+                    <p>Complete LinkedIn profile optimization to build your professional network and attract opportunities.</p>
+                    <ul class="service-features">
+                        <li>Profile optimization</li>
+                        <li>Network building tips</li>
+                        <li>Content strategy</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="email-signatures">
+                    <div class="service-icon">
+                        <i class="fas fa-signature"></i>
+                    </div>
+                    <h3>Email Signatures</h3>
+                    <p>Professional email signatures that make every email count and reinforce your brand identity.</p>
+                    <ul class="service-features">
+                        <li>Custom design</li>
+                        <li>Mobile responsive</li>
+                        <li>Brand consistency</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="business-cards">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Business Cards</h3>
+                    <p>Eye-catching business cards that leave a lasting impression and help you network effectively.</p>
+                    <ul class="service-features">
+                        <li>Modern designs</li>
+                        <li>Print-ready files</li>
+                        <li>Multiple formats</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="flyers-marketing">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Flyers & Marketing</h3>
+                    <p>Creative flyers and marketing materials to promote your events, business, or personal brand.</p>
+                    <ul class="service-features">
+                        <li>Creative design</li>
+                        <li>Event promotion</li>
+                        <li>Brand materials</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="phone-support">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Phone Support</h3>
+                    <p>Expert technical support for smartphones including setup, troubleshooting, and optimization.</p>
+                    <ul class="service-features">
+                        <li>All major brands</li>
+                        <li>Software issues</li>
+                        <li>Setup assistance</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="laptop-support">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Laptop Support</h3>
+                    <p>Comprehensive laptop technical support from software installation to performance optimization.</p>
+                    <ul class="service-features">
+                        <li>Performance tuning</li>
+                        <li>Software installation</li>
+                        <li>Troubleshooting</li>
+                    </ul>
+                    <div class="service-cta">
+                        <button class="btn btn-primary service-btn">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About SmartTech</h2>
+                    <p>We are a passionate team of students who understand the challenges of building a professional presence while managing academic life. Our mission is to provide high-quality, affordable tech solutions that help students and professionals succeed.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8</h3>
+                            <p>Core Services</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-graphic">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to get started? Contact us today for a free consultation</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@smarttech.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9AM-6PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select a Service</option>
+                            <option value="cv">CV Creation</option>
+                            <option value="cover-letter">Cover Letter</option>
+                            <option value="linkedin">LinkedIn Setup</option>
+                            <option value="email-signature">Email Signature</option>
+                            <option value="business-cards">Business Cards</option>
+                            <option value="flyers">Flyers & Marketing</option>
+                            <option value="phone-support">Phone Support</option>
+                            <option value="laptop-support">Laptop Support</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modals -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="serviceForm" class="service-form">
+                    <div id="serviceQuestions"></div>
+                    <div class="form-group">
+                        <label for="clientName">Your Name *</label>
+                        <input type="text" id="clientName" name="clientName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientEmail">Your Email *</label>
+                        <input type="email" id="clientEmail" name="clientEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientPhone">Phone Number</label>
+                        <input type="tel" id="clientPhone" name="clientPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="timeline">Preferred Timeline</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Select timeline</option>
+                            <option value="asap">ASAP (24-48 hours)</option>
+                            <option value="week">Within a week</option>
+                            <option value="month">Within a month</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget</option>
+                            <option value="basic">$25 - $50</option>
+                            <option value="standard">$50 - $100</option>
+                            <option value="premium">$100 - $200</option>
+                            <option value="custom">Custom quote needed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="additionalInfo">Additional Information</label>
+                        <textarea id="additionalInfo" name="additionalInfo" rows="3" placeholder="Any specific requirements or questions?"></textarea>
+                    </div>
+                    <div class="modal-buttons">
+                        <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SmartTech</h3>
+                    <p>Student-led tech solutions for the modern professional.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">CV Creation</a></li>
+                        <li><a href="#">Cover Letters</a></li>
+                        <li><a href="#">LinkedIn Setup</a></li>
+                        <li><a href="#">Tech Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SmartTech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
